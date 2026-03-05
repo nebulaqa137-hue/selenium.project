@@ -15,7 +15,9 @@ public class TestingSelenium {
     public static void main(String[] args) {
 
         WebDriver driver = new ChromeDriver();
-
+      //NEw changes
+        
+        
         // MANAGE
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
